@@ -1,0 +1,38 @@
+* {
+    font-family: 'Avenir Black', 'Arial Black', sans-serif;
+}
+
+
+:root {
+    --primary: #B3B1D2;
+    --secondary: #4B6EA1;
+    --tertiary: #9295CA;
+}
+
+header {
+    color: var(--primary);
+    background-color: var(--secondary);
+    padding: 15px;
+    border: 20px var(--tertiary);
+    text-align: start;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+li {
+    float: right;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-line: underline;
+    color: var(--primary);
+  }
+
+.hero-banner
+{
+background-image: (url("trafficwrapz"));
+
+}
