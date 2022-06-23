@@ -9,21 +9,26 @@
     --tertiary: #9295CA;
 }
 
-header {
+body, header {
     color: var(--primary);
     background-color: var(--secondary);
-    padding: 15px;
-    border: 20px var(--tertiary);
+    height: 140px;
+    width: auto;
     text-align: start;
+    margin: 8px;
+
 }
 
-ul {
+h1{
+    display: inline-block;
+}
+
+nav {
+display: inline;
+
+}
+ul, li {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-  }
-  
-li {
     float: right;
     text-decoration: underline;
     text-decoration-thickness: 5px;
@@ -33,6 +38,23 @@ li {
 
 .hero-banner
 {
-background-image: (url("trafficwrapz"));
+background-image: url("./assets/blastoff.pdf");
+width: 100%;
+height: 400px;
+margin-bottom: 5%;
+content: normal;
+
+}
+
+#h2-hero {
+color: #E5ACDA;
+text-shadow: 1px 1px #fff;
+box-shadow: (16px 16px 10px black);
+float: right;
+}
+
+main {
+
+background-color: var(--secondary);
 
 }
