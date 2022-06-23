@@ -9,7 +9,8 @@
     --tertiary: #9295CA;
 }
 
-body, header {
+body,
+header {
     color: var(--primary);
     background-color: var(--secondary);
     height: 140px;
@@ -19,42 +20,50 @@ body, header {
 
 }
 
-h1{
+h1 {
     display: inline-block;
 }
 
 nav {
-display: inline;
+    display: inline;
 
 }
-ul, li {
+
+ul,
+li {
     list-style-type: none;
     float: right;
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-decoration-line: underline;
     color: var(--primary);
-  }
+}
 
-.hero-banner
-{
-background-image: url("./assets/blastoff.pdf");
-width: 100%;
-height: 400px;
-margin-bottom: 5%;
-content: normal;
+.profile-image {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hero-banner {
+    background-image: url("./assets/blastoff.pdf");
+    width: 100%;
+    height: 400px;
+    margin-bottom: 5%;
+    content: normal;
 
 }
 
 #h2-hero {
-color: #E5ACDA;
-text-shadow: 1px 1px #fff;
-box-shadow: (16px 16px 10px black);
-float: right;
+    color: #E5ACDA;
+    text-shadow: 1px 1px #fff;
+    box-shadow: (16px 16px 10px black);
+    float: right;
 }
 
 main {
 
-background-color: var(--secondary);
+    background-color: var(--secondary);
 
 }
