@@ -42,8 +42,9 @@ li {
 height: 200px;
 width: 200px;
 border-radius: 50%;
-margin-left: 100%;
-box-shadow: -1em 0 .4em #fff;
+margin-left: 12%;
+margin-top: 10%;
+box-shadow: 0em 0 .4em #fff;
 
 
 }
@@ -57,18 +58,32 @@ box-shadow: -1em 0 .4em #fff;
 }
 
 #h2-hero {
-    color: #E5ACDA;
+    color: #d498c8;
     text-shadow: 1px 1px #fff;
     float: right;
+    margin-top: 20%;
+    margin-right: 13%;
+    font-weight: 900;
 }
 
-#about-me {
+#about-me, #contact-me, #work, #resume {
     color: #E5ACDA;
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-color: #E5ACDA; 
+    text-decoration-thickness: 3px;
 
 }
-
+hr {
+    width: 50%;
+  }
+  
 main {
-
     background-color: var(--secondary);
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
 
 }
