@@ -33,18 +33,20 @@ ul,
 li {
     list-style-type: none;
     float: right;
+    padding: 10px;
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-decoration-line: underline;
     color: var(--primary);
 }
+
 #avatar-img {
-height: 200px;
-width: 200px;
-border-radius: 50%;
-margin-left: 12%;
-margin-top: 10%;
-box-shadow: 0em 0 .4em #fff;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 12%;
+    margin-top: 10%;
+    box-shadow: 0em 0 .4em #fff;
 
 
 }
@@ -66,18 +68,56 @@ box-shadow: 0em 0 .4em #fff;
     font-weight: 900;
 }
 
-#about-me, #contact-me, #work, #resume {
+#about-me,
+#contact-me,
+#work,
+#resume {
     color: #E5ACDA;
     text-align: center;
     text-decoration: dotted;
-    text-decoration-color: #E5ACDA; 
+    text-decoration-color: #E5ACDA;
     text-decoration-thickness: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact-me ul, li a {
+    list-style-type: none;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 0px;
+    font-size: 17px;
+    margin: 750px;
+}
+
+#Email {
+    background-image: url("./assets/email\ icon.jpg");
+    width: 100px;
+    height: 100px;
+
+
+}
+#Phone {
+    background-image: url("./assets/phone\ icon.jpg");
+    width: 100px;
+    height: 100px;
+
+
+}
+#Address {
+    background-image: url("./assets/address\ icon.jpg");
+    width: 100px;
+    height: 100px;
+
+
+
 
 }
 hr {
     width: 50%;
-  }
-  
+}
+
 main {
     background-color: var(--secondary);
     margin-top: 70px;
