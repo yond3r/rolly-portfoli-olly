@@ -38,28 +38,33 @@ li {
     text-decoration-line: underline;
     color: var(--primary);
 }
+#avatar-img {
+height: 200px;
+width: 200px;
+border-radius: 50%;
+margin-left: 100%;
+box-shadow: -1em 0 .4em #fff;
 
-.profile-image {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+
 }
 
 .hero-banner {
     background-image: url("./assets/blastoff.pdf");
     width: 100%;
     height: 400px;
-    margin-bottom: 5%;
-    content: normal;
-
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 #h2-hero {
     color: #E5ACDA;
     text-shadow: 1px 1px #fff;
-    box-shadow: (16px 16px 10px black);
     float: right;
+}
+
+#about-me {
+    color: #E5ACDA;
+
 }
 
 main {
